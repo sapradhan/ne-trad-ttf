@@ -1,0 +1,163 @@
+﻿;; ne-trad.mim -- Nepali input method for traditional layout
+;; This files implements the traditional keyboard layout 
+;; trying to remain compatible with ttf fonts like Himali, 
+;; Kantipur and Preeti
+;; Creative Commons (cc) 2013 Santosh Pradhan <sapradhan8@gmail.com>
+
+;; This file is part of the m17n contrib; a sub-part of the m17n
+;; library.
+
+;; The m17n library is free software; you can redistribute it and/or
+;; modify it under the terms of the GNU Lesser General Public License
+;; as published by the Free Software Foundation; either version 2.1 of
+;; the License, or (at your option) any later version.
+
+;; The m17n library is distributed in the hope that it will be useful,
+;; but WITHOUT ANY WARRANTY; without even the implied warranty of
+;; MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+;; Lesser General Public License for more details.
+
+;; You should have received a copy of the GNU Lesser General Public
+;; License along with the m17n library; if not, write to the Free
+;; Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
+;; Boston, MA 02110-1301, USA.
+
+(input-method ne trad-ttf)
+
+(description "Nepali input method with ttf-fonts like layout.
+Author: Santosh Pradhan <sapradhan8@gmail.com>
+")
+
+(title "Ne")
+
+(map
+ (trans
+  ("~" ?ऽ)
+  ("!" "ज्ञ")
+  ("@" ?ई)
+  ("#" ?घ)
+  ("$" "द्ध")
+  ("%" ?छ)
+  ("^" ?ट)
+  ("&" ?ठ)
+  ("*" ?ड)
+  ("(" ?ढ)
+  (")" ?ण)
+  ("+" ?ं)
+  ("_" ?ओ)
+  ("`" ?ञ)
+  ("0" ?०)
+  ("1" ?१)
+  ("2" ?२)
+  ("3" ?३)
+  ("4" ?४)
+  ("5" ?५)
+  ("6" ?६)
+  ("7" ?७)
+  ("8" ?८)
+  ("9" ?९)
+  ("-" ?औ)
+  ("=" ?‌)
+  ("A" ?आ)
+  ("B" ?ौ)
+  ("C" ?ऋ)
+  ("D" "म्")
+  ("E" ?ऐ)
+  ("F" ?ँ)
+  ("G" "न्")
+  ("H" ?झ)
+  ("I" "क्ष")
+  ("J" ?ो)
+  ("K" ?फ)
+  ("L" ?ी)
+  ("M" ?ः)
+  ("N" "ल्")
+  ("O" ?इ)
+  ("P" ?ए)
+  ("Q" "त्त")
+  ("R" "च्")
+  ("S" "क्")
+  ("T" "त्")
+  ("U" ?ऊ)
+  ("V" ?ॐ)
+  ("W" "ध्")
+  ("X" "ह्")
+  ("Y" "थ्")
+  ("Z" "श्")
+  ("a" ?ब)
+  ("b" ?द)
+  ("c" ?अ)
+  ("d" ?म)
+  ("e" ?भ)
+  ("f" ?ा)
+  ("g" ?न)
+  ("h" ?ज)
+  ("i" ?ष)
+  ("j" ?व)
+  ("k" ?प)
+  ("l" ?ि)
+  ("m" ?:)
+  ("n" ?ल)
+  ("o" ?य)
+  ("p" ?उ)
+  ("q" "त्र")
+  ("r" ?च)
+  ("s" ?क)
+  ("t" ?त)
+  ("u" ?ग)
+  ("v" ?ख)
+  ("w" ?ध)
+  ("x" ?ह)
+  ("y" ?थ)
+  ("z" ?श)
+  ("'" ?ु)
+  ("\"" ?ू)
+  (";" ?स)
+  (":" "स्")
+  ("," ?,)
+  ("<" ?ङ)
+  ("." ?।)
+  (">" "श्र")
+  ("/" ?र)
+  ("?" ??)
+  ("\\" ?्)
+  ("|" ?‍)
+  ("[" ?ृ)
+  ("]" ?े)
+  ("{" " ")
+  ("}" ?ै)
+
+  ("{`" ?`)
+  ("{~" ?~)
+  ("{1" ?!)
+  ("{2" ?@)
+  ("{3" ?#)
+  ("{4" ?$)
+  ("{5" ?%)
+  ("{6" ?^)
+  ("{7" ?&)
+  ("{8" ?*)
+  ("{9" ?\()
+  ("{0" ?\))
+  ("{-" ?-)
+  ("{_" ?_)
+  ("{=" ?=)
+  ("{+" ?+)
+  ("{[" ?[)
+  ("{{" "{")
+  ("{]" ?])
+  ("{}" "}")
+  ("{\\" ?\\)
+  ("{|" ?|)
+  ("{;" ?;)
+  ("{'" ?')
+  ("{\"" ?\")
+  ("{<" ?<)
+  ("{." ?.)
+  ("{>" ?>)
+  ("{/" ?/)
+  ))
+
+(state
+  (init
+    (trans)))
