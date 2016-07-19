@@ -2,8 +2,8 @@
 ;; This files implements the traditional keyboard layout 
 ;; trying to remain compatible with ttf fonts like Himali, 
 ;; Kantipur and Preeti
-;; v1.1 2015-06-17
-;; Creative Commons (cc) 2015 Santosh Pradhan <sapradhan8@gmail.com>
+;; v1.2 2016-07-20
+;; Creative Commons (cc) 2016 Santosh Pradhan <sapradhan8@gmail.com>
 
 ;; This file is part of the m17n contrib; a sub-part of the m17n
 ;; library.
@@ -130,6 +130,16 @@ Author: Santosh Pradhan <sapradhan8@gmail.com>
 
   ("{`" ?`)
   ("{~" ?~)
+  ("{!" ?!)
+  ("{@" ?@)
+  ("{#" ?#)
+  ("{$" ?$)
+  ("{%" ?%)
+  ("{^" ?^)
+  ("{&" ?&)
+  ("{*" ?*)
+  ("{(" ?\()
+  ("{)" ?\))
   ("{1" ?!)
   ("{2" ?@)
   ("{3" ?#)
