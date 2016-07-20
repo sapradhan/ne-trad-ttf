@@ -3,6 +3,7 @@
 ;; trying to remain compatible with ttf fonts like Himali, 
 ;; Kantipur and Preeti
 ;; v1.2 2016-07-20
+;; Source and docs: github.com/sapradhan/ne-trad-ttf
 ;; Creative Commons (cc) 2016 Santosh Pradhan <sapradhan8@gmail.com>
 
 ;; This file is part of the m17n contrib; a sub-part of the m17n
