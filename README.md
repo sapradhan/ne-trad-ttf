@@ -8,11 +8,13 @@ nepali traditional layouts mostly compatible with preeti, kantipur like ttf font
 - extract and run setup.exe
 - Go to control panel->Regional settings->Keyboards and languages
 - new keyboard layout should be available under Nepali language named Nepali Traditional TTF
-- src for [Microsoft Keyboard Layout Creator](http://www.microsoft.com/en-us/download/details.aspx?id=22339) in `klc` folder
 - [detailed instructions](http://nepalitankan.blogspot.com/2013/10/ne-trad-ttf-for-ms-windows.html)
+- Use [Microsoft Keyboard Layout Creator](http://www.microsoft.com/en-us/download/details.aspx?id=22339) to build src for in `klc` folder
 
 ## installation instructions for Linux 
-- install packages `ibus` and `ibus-m17n` 
+**v1.2 is now included in m17n-db 1.8 so this layout should be be already present in most distributions if you use `ibus` or `fcitx` ** 
+### Installing manually
+- install packages `ibus` and `ibus-m17n` or `fcitx` and `fcitx-m17n`
 - download latest distribution tar ball from releases and run this command `sudo tar xzf linux-ne-trad-ttf.tar.gz -C /usr/share/m17n`. This will :
     - copy `ne-trad-ttf.mim` to `/usr/share/m17n` (installation dir of m17n-db)
     - copy `ne-trad-ttf.png` to `/usr/share/m17n/icons`
