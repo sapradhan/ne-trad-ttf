@@ -1,10 +1,16 @@
-﻿;; ne-trad.mim -- Nepali input method for traditional layout
+﻿;; ne-trad-ttf.mim -- Nepali input method for traditional layout
 ;; This files implements the traditional keyboard layout 
 ;; trying to remain compatible with ttf fonts like Himali, 
 ;; Kantipur and Preeti
-;; v1.2 2016-07-20
+;; v1.3 2023-05-18 added rra and nukta 
+
+;; Version history 
+;; v1.2 2016-07-20 add more dead key combinations {! -> !
+;; v1.1 2015-06-17 moved ZWNJ to m, . to =
+;; v1.0 2013-10-27 first release
+
 ;; Source and docs: github.com/sapradhan/ne-trad-ttf
-;; Creative Commons (cc) 2016 Santosh Pradhan <sapradhan8@gmail.com>
+;; Creative Commons (cc) 2023 Santosh Pradhan <sapradhan8@gmail.com>
 
 ;; This file is part of the m17n contrib; a sub-part of the m17n
 ;; library.
@@ -166,9 +172,10 @@ Author: Santosh Pradhan <sapradhan8@gmail.com>
   ("{'" ?')
   ("{\"" ?\")
   ("{<" ?<)
-  ("{." ?.)
+  ("{." ?़)
   ("{>" ?>)
   ("{/" ?/)
+  ("{?" "ऱ्")
   ))
 
 (state

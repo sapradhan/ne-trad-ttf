@@ -12,7 +12,9 @@ nepali traditional layouts mostly compatible with preeti, kantipur like ttf font
 - Use [Microsoft Keyboard Layout Creator](https://www.microsoft.com/en-us/download/details.aspx?id=102134) to build src for in `klc` folder
 
 ## installation instructions for Linux 
-**v1.2 is now included in m17n-db 1.8 so this layout should be be already present in most distributions if you use `ibus` or `fcitx` ** 
+*v1.2 is now included in m17n-db 1.8 so this layout should be be already present in most distributions if you use `ibus` or `fcitx`* 
+v1.3 includes ऱ for eyelash half RA as in पऱ्यो, to use it, install manually. 
+
 ### Installing manually
 - install packages `ibus` and `ibus-m17n` or `fcitx` and `fcitx-m17n`
 - download latest distribution tar ball from releases and run this command `sudo tar xzf linux-ne-trad-ttf.tar.gz -C /usr/share/m17n`. This will :
